@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel* lblMessage;
+
+-(IBAction)displayGreen;
+-(IBAction)displayRed;
+
 @end
